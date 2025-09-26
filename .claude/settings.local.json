@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm init:*)",
+      "Bash(npm install express cors dotenv)",
+      "Bash(npm install:*)",
+      "Bash(claude mcp:*)",
+      "Bash(npx playwright:*)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:visualblocks.withgoogle.com)",
+      "WebSearch",
+      "Bash(npm uninstall:*)",
+      "WebFetch(domain:docs.pytorch.org)",
+      "WebFetch(domain:developers.google.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
